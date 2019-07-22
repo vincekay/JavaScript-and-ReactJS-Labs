@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    margin-top: 0;
+}
+
+
+/* Header section */
+#main-header {
+    background-color: #000;
+    height: 115px;
+    color: #c8c8c8;
+}
+
+.inner-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#header-title-container {
+    padding-top: 3%;
+    letter-spacing: 15px;
+}
+
+/* End of Header */
+
+/* Page content */
+#page-container {
+    height: 90vh;
+    background-color: #c8c8c8;
+}
+
+.inner-container {
+    border-radius: 5px;
+}
+
+.content-container {
+    margin: 2% auto;  
+}
+
+#peopleInSpace {
+    margin: 0 auto;
+    padding-left: 10%;
+    margin-top: 4%;
+
+}
+
+.peopleCard {
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 25px;
+    background-color: #ededed
+}
+
+.name h5, .craft h5 {
+    display: inline;
+}
+
+.name, .craft {
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.name span, .craft span {
+    padding-left: 5px;
+}
+
+
+/* End of paage content */

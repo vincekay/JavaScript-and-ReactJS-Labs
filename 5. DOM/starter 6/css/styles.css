@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-container {
+    height: 100vh;
+}
+
+.bords {
+    border: 1px solid black;
+}
+
+/* Header */
+.main-header {
+    background-color: green;
+    color: white;
+    height: 100px;
+    /* text-align: center; */
+}
+
+#header-title {
+    font-size: 40px;
+    /* padding-top: 2%; */
+}
+
+/* Content */
+#content-container {
+    border: 1px solid #c4c4c4;
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.inner-container {
+    margin: 20px;
+}
+
+.button-delete {
+    margin-left: 5px;
+}
+
